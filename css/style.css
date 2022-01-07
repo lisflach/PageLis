@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat+Alternates&display=swap');
+
+
+body{
+    font-size: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: pink;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+}
+
+.cabecalho-imagem{
+    background-color: purple;
+   
+}
+
+.cabecalho-menu{
+    text-align: right;  
+}
+
+.cabecalho-menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.cabecalho-menu ul li a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cabecalho-menu ul li a:hover {
+    color: rgb(218, 45, 96);
+}
